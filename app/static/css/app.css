@@ -1,3 +1,25 @@
 body {
     padding-top: 5rem;
 }
+
+form{
+    display:grid;
+    height: 100px;
+    width: 300px;
+    grid-template: 1fr2 1fr2 / 1fr2 1fr2;
+    grid-column-gap: 50px;
+    margin-top:50px ;
+
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 110px;
+    height:30px;
+    margin: auto;
+}
